@@ -1,0 +1,132 @@
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+body{
+	font-family: "Trebuchet MS", "Heveltica", sans-serif;
+	font-size: 1em;
+	background: #DCD9D2;
+}
+
+#header{
+	background: #F3D70A;
+	text-align: center; 
+	padding: 30px;
+}
+
+#header a{
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+}
+
+#header a:hover{
+	color: orange;
+	background: white;
+}
+
+#header h1{
+	padding-bottom: 20px; 
+	font-size: 2.5em;
+}
+
+#header span{
+	color: white;	
+} /*fim hearder*/
+
+#principal{
+	width: 920px;
+	margin: 0 auto;
+	margin-top: 20px;
+} /*sistemas de informação engenharia da computação*/
+
+#postagens{
+	width: 660px;
+	float: left;
+}
+
+#menu-lateral{
+	width: 240px;
+	float: right;
+}
+
+
+
+#rodape{
+	background: #ccc;
+	text-align: center;
+	clear: both;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.post span{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.post h2{
+	color: #F2C811;
+}
+
+.post a{
+	text-decoration: none;
+	color: #F2C811;
+}
+
+.conteudo-lateral{
+	padding: 10px;
+	font-size: 0.8em;
+	background: white;
+}
+
+.conteudo-lateral h3{
+	background: #CBC9C0;
+	color: #5A5957;
+	margin-bottom: 5px;
+	font-size: 1.4em;
+	padding: 5px;
+}
+
+.conteudo-lateral a{
+	text-decoration: none;
+	color: #F2C811;
+}
+
+
+.categorias{
+	padding: 10px;
+	background: white;
+	margin-top: 10px;
+
+}
+
+.categorias a{
+	display: block;
+	text-decoration: none;
+	color: #F2C811;
+}
+
+.categorias a:hover{
+	display: block;
+	text-decoration: underline;
+	color: #F2C811;
+}
+.categorias h3{
+	background: #CBC9C0;
+	color: #5A5957;
+	font-size: 1.4em;
+	margin-bottom: 5px;
+	padding: 5px;
+}
